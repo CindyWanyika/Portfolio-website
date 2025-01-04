@@ -4,6 +4,10 @@
     font-family: "Poppins","sans-serif";
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #fdfdfd;
     color: #000000;
@@ -15,6 +19,14 @@ body{
     background-size: cover;
     background-position: center;
 
+}
+.top{
+    width: 100%;
+    text-align: center;
+    padding: 15px 3;
+    background: #a3a3a3;
+    font-weight: 300;
+    margin-top: 0%;
 }
 .container{
     padding: 10px 1%;
@@ -72,6 +84,7 @@ nav ul li a:hover::after{
     aspect-ratio: 1/1;
 }
 .col-2{
+    margin-top: 60px;
     flex-basis: 60%;
 
 }
@@ -229,7 +242,7 @@ nav ul li a:hover::after{
 }
 .btn{
     display: block;
-    margin: 50px;
+    margin: 5px;
     width: fit-content;
     border: 1px solid #07a9a1;
     padding: 14px 50px;
@@ -237,6 +250,8 @@ nav ul li a:hover::after{
     text-decoration: none;
     color: white;
     transition: background 0.5s;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 .btn:hover{
     background: #07a9a1;
@@ -272,3 +287,44 @@ nav ul li a:hover::after{
     display: inline-block;
     background: #07a9a1;
 }
+
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: rgb(203, 200, 200);
+    padding: 15px;
+    margin: 15px 0;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form btn2{
+    padding: 14px 60px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #a3a3a3;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright i{
+    color: #07a9a1;
+}
+#msg{
+    color: #07a9a1;
+    margin-top: -40px;
+    display: block;
+}
+ 
+/*-----css for a smaller screen-----*/
