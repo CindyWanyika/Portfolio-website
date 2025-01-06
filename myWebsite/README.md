@@ -1,11 +1,11 @@
 # Personal Website
 
-Welcome to my personal website repository! 🎉  
-This is where I showcase my portfolio, skills, and journey as a developer.
+Welcome to my personal website repository!   
+This contains the source code for my html website where i showcase my portfolio, skills, and journey as a developer.
 
 ---
 
-## Features 🌟
+## Features
 
 - **Home Page:** An introduction to who I am and what I do.
 - **About Page:** A deeper dive into my skills, education, and experience.
