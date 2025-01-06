@@ -15,11 +15,10 @@ This is where I showcase my portfolio, skills, and journey as a developer.
 
 ---
 
-## Technologies Used 🛠️
+## Technologies Used 
 
-- **HTML5**
+- **HTML**
 - **CSS3 (Flexbox, Grid)**
-- **JavaScript**
-- **Boxicons (for icons)**
+- **Cloudflare (for icons)**
 - **Git** for version control
 - Hosted on **GitHub Pages**
