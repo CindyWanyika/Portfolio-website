@@ -1,198 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 <head>
-    <title>Cindy Wanyika</title>
-    <link rel="icon" href="octo.png">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
-</head> 
-<body>
-<div id="header">
-<div class="container">
-<div class="top">
-    <nav>
-        <img src="logoFinal.png" class="logo">
-        <ul>
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</div>
-    <div class="home-text">
-        <div class="col-1">
-            <img src="webpic.jpg">
-        </div>
-
-        <div class="col-2">
-            <h3>Hi</h3>
-
-            <h1>I'm <span>Cindy<br></span>a Backend Developer</h1>
-
-            <p>My name is Cindy Wanyika from Kenya.I am currently
-                a student at Ashesi University in Ghana majoring in Computer Science.
-                I am also a Fullstack developer well versed<br>
-                in several programming languages
-            </p> 
-        </div>
-        
-        
-
-    </div>
-    
-</div>
-
-</div>
-
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="tech2.png">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p class="about-text">Hi! I’m Cindy, a Computer Science student with a passion for solving,<br> 
-                    real-world problems through code. Whether it’s building apps, analyzing<br>
-                     data, or designing algorithms, I love creating meaningful projects.<br>
-                      When I’m not coding, you’ll find me exploring new tech trends, blogging<br> 
-                      about social issues, or brainstorming ideas to make a difference.</p>
-                      <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                      </div>
-                      <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Programming languages</span><br>Java,Python,HTML,CSS,PHP,Javascript</li>
-                            <li><span>Tools & Technologies</span><br>JavaFx,Intellij IDEA,Android Studio,Git,github</li>
-                            <li><span>Core skills</span><br>Object Oriented Programming,Basic Cryptography,Artificial Intelligence,Mobile app development</li>
-                            <li><span>Currently Learning</span><br>Data structures and Algorithms</li>
-                        </ul>
-                      </div>
-                      <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2024</span><br>Huawei hackathon</li>
-                            <li><span>2025</span><br>VolunteerHack</li>
-                            <li><span>2025</span><br>NextAI hackathon</li>
-                        </ul>
-                      </div>
-                      <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2021</span><br>Alliance girls' High school</li>
-                            <li><span>2024</span><br>Ashesi University</li>
-                        
-                        </ul>
-                      </div>
-                      
-            </div>
-        </div>
-    </div>
-
-
-</div>
-<!---Portfolio-->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="cab.png" style="height: 350px; width: 350px ;">
-                <div class="layer">
-                    <h3>Cab booking platform</h3>
-                    <p>The program allows connects drivers<br> and passengers within the same localities</p>
-                    <a href="https://github.com/CindyWanyika/supreme-Macargi"><i class="fa fa-external-link" aria-hidden="false"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="deepfake.jpg" style="height: 350px; width: 350px ;">
-                <div class="layer">
-                    <h3>A deepfake detection model</h3>
-                    <p>This project explores the distinction between real human faces and AI-generated images using a convolutional neural network trained on Kaggle datasets. </p>
-                    <a href="https://github.com/CindyWanyika/AI-image-Classifier"><i class="fa fa-external-link" aria-hidden="false"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="journal.png" style="height: 350px; width: 350px ;">
-                <div class="layer">
-                    <h3>Emotion tracking Journal</h3>
-                    <p>The program allows users to log their emotions and records them<br> enabling users to keep a track of what they feel(In progress)</p>
-                    <a href="#"><i class="fa fa-external-link" aria-hidden="false"></i></a>
-                </div>
-            </div>
-
-        </div>
-        <a href="#" class="btn">See more</a>
-        
-    </div>
-</div>
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fas fa-paper-plane"></i>cindy.kilonzo@ashesi.edu.gh</p>
-                <p><i class="fas fa-phone-square"></i>
-                    +254768283274</p>
-                <div class="social-icons">
-                    <a href="https://github.com/CindyWanyika"><i class="fab fa-github"></i></a>
-                    <a href="https://x.com/_Ceys_lonlyfans"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/cindy-kilonzo-6660ba2ab/"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <a href="CindyWanyika_Resume.pdf" download class="btn btn2">Download CV</a>
-
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your name" requireed>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">
-        <p>Copyright © Cindy with <i class="fas fa-heart"></i></p>
-    </div>
-</div>
-
-<script>
-    var tablinks=document.getElementsByClassName("tab-links");
-    var tabcontents=document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link")
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab")
-        }
-        event.currentTarget.classList.add("active-link")
-        document.getElementById(tabname).classList.add("active-tab")
-    }
-</script>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxWV3ZqI9EUMwOMniXNVhxqkt5f6f7iMyJpR1HHccxgtv8U9DBG6R8EG4Z2clrqI0v7/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg=document.getElementById("msg")
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cindy Wanyika</title>
+  <link rel="icon" href="c.png">
+  <link rel="stylesheet" href="style.css" />
   
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML="Message submitted successfully"
-            setTimeout(function(){
-                msg.innerHTML=""
-            },2000)
+</head>
+<body>
+  <header>
+    <div class="logo">Cindy<span>Portfolio</span></div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-text">
+        <p class="intro">Hello, I'm</p>
+        <h1>Cindy Wanyika</h1>
+        <h2>Full Stack Developer</h2>
+        <p class="description">
+          I build responsive, accessible web applications with modern technologies. Passionate about creating clean, efficient code and exceptional user experiences.
+        </p>
+        <div class="buttons">
+          <a href="#" class="btn primary">Get in Touch</a>
+          <a href="#" class="btn outline">View Projects</a>
+        </div>
+        <div class="icons">
+          <a href="https://github.com/CindyWanyika"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="LinkedIn" /></a>
+          <a href="CindyWanyika_Resume.pdf"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/readthedocs.svg" alt="Resume" /></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="lotus.png" alt="Cindy" />
+      </div>
+    </section>
+    <section class="about" id="about">
+    <h2>About Me</h2>
+    <p class="subtitle">
+        Get to know me better – my background, experience, and what drives me as a developer.
+    </p>
+    <div class="about-content">
+        <div class="about-left">
+        <h3>My Journey</h3>
+        <p>
+        I’m a Computer Science major at Ashesi University with a strong interest in cybersecurity. I’m also a Women Techsters Fellowship fellow, where I focus on learning more about cybersecurity and how to keep systems safe.
+        </p>
+        <p>
+        I enjoy building applications that make life easier for me, my friends, and people everywhere. I believe that technology should help us solve real problems and improve our daily lives.
+        </p>
+        <p>
+        I’m very interested in artificial intelligence, especially in making AI safe and fair for everyone. I have worked on AI projects like predicting stock prices, telling if an image is real or fake, and using AI to help diagnose diabetes.
+        </p>
+        <p>
+        My goal is to create technology that is helpful, meaningful, and makes a positive impact on the world.
+        </p>
+        </div>
+        <div class="about-right">
+        <h3>Education & Experience</h3>
+        <h4><a href="#">Bsc Computer Science</a></h4>
+        <p>Ashesi University | 2024 – Present</p>
+        <p>
+            I am a Computer Science Major at Ashesi University with concentrations in  web development, algorithms, OOP, and Artificial Intelligence.
+        </p>
+        <h4><a href="#">Freelance Software Developer</a></h4>
+        <p>Remote | 2025-Present</p>
+        <p>
+            I am a freelance software developer who builds creative and practical solutions for real-world problems from mobile applications,websites and AI agents.
+        </p>
+
+        <h4><a href="#">Women Techsters Fellowship Fellow-CyberSecurity</a></h4>
+        <p>Remote | 2025-Present</p>
+        <p>
+            I am a Women Techsters Fellowship fellow specializing in cybersecurity, focused on building secure and inclusive digital solutions.
+        </p>
+        </div>
+    </div>
+    </section>
+
+    <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <p class="subtitle">The technologies and tools I work with to bring ideas to life.</p>
+    <div class="skills-content">
+        <div class="skill-card">
+        <h3>Frontend Development</h3>
+        <p>HTML <span>95%</span></p>
+        <div class="bar"><div class="progress" style="width: 95%;"></div></div>
+
+        <p>CSS <span>90%</span></p>
+        <div class="bar"><div class="progress" style="width: 90%;"></div></div>
+
+        <p>JavaScript <span>85%</span></p>
+        <div class="bar"><div class="progress" style="width: 85%;"></div></div>
+
+        <p>Dart <span>75%</span></p>
+        <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+
+        <p>Flutter <span>80%</span></p>
+        <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+
+        <p>JavaFX <span>70%</span></p>
+        <div class="bar"><div class="progress" style="width: 70%;"></div></div>
+
+        <p>Swift <span>65%</span></p>
+        <div class="bar"><div class="progress" style="width: 65%;"></div></div>
+        </div>
+
+        <div class="skill-card">
+        <h3>Backend Development</h3>
+        <p>PHP <span>70%</span></p>
+        <div class="bar"><div class="progress" style="width: 70%;"></div></div>
+
+        <p>Python <span>90%</span></p>
+        <div class="bar"><div class="progress" style="width: 90%;"></div></div>
+
+        <p>Java <span>85%</span></p>
+        <div class="bar"><div class="progress" style="width: 85%;"></div></div>
+
+        <p>MySQL <span>90%</span></p>
+        <div class="bar"><div class="progress" style="width: 90%;"></div></div>
+
+        <p>AI and Machine Learning <span>75%</span></p>
+        <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+        </div>
+
+        <div class="skill-card">
+        <h3>Tools & Technologies</h3>
+        <p>Git <span>85%</span></p>
+        <div class="bar"><div class="progress" style="width: 85%;"></div></div>
+
+        <p>GitHub <span>80%</span></p>
+        <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+
+        <p>Android Studio <span>75%</span></p>
+        <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+
+        <p>n8n <span>70%</span></p>
+        <div class="bar"><div class="progress" style="width: 70%;"></div></div>
+        </div>
+    </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2>My Projects</h2>
+      <p class="subtitle">A selection of my recent work and personal projects.</p>
+      <div class="projects-content">
+
+        <!-- Emotion Tracking App -->
+        <div class="project-card">
+          <img src="emotion-app.png" alt="Emotion Tracking App">
+          <h3>Emotion Tracking App</h3>
+          <p>
+            An Android app that tracks and analyzes user emotions in real time.
+          </p>
+          <div class="tags">
+            <span>Java</span>
+            <span>Android Studio</span>
+          </div>
+          <a href="#" class="demo-link">Live Demo</a> 
+          <a href="#" class="source-link">Source Code</a>
+        </div>
+
+        <!-- E-commerce Platform -->
+        <div class="project-card">
+          <img src="ecommerce.png" alt="E-commerce Platform">
+          <h3>E-commerce Platform</h3>
+          <p>
+            A web platform for online shopping with product management and payment integration.
+          </p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>APIs</span>
+          </div>
+          <a href="#" class="demo-link">Live Demo</a> 
+          <a href="https://github.com/CindyWanyika/youstack" class="source-link">Source Code</a>
+        </div>
+
+        <!-- Stock Prediction AI Model -->
+        <div class="project-card">
+          <img src="stock-prediction.png" alt="Stock Prediction AI Model">
+          <h3>Stock Prediction AI Model</h3>
+          <p>
+            An AI model that predicts profitable stocks on the S&P 500 index using advanced machine learning techniques.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>Machine Learning</span>
+          </div>
+          <a href="#" class="demo-link">Live Demo</a> 
+          <a href="https://github.com/CindyWanyika/s-p500_ai_stock_predictor" class="source-link">Source Code</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <p>Have a project in mind or want to collaborate? Feel free to reach out!</p>
+      
+      <div class="contact-container">
+
+        <!-- Contact form -->
+        <form name="submit-to-google-sheet">
+          <h3>Send Me a Message</h3>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="your.email@example.com" required>
+          <input type="text" name="Subject" placeholder="Subject" required>
+          <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+          <span id="msg"></span>
+        </form>
+
+        <!-- Contact info -->
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><strong>Email</strong><br>kilonzocindy4@gmail.com</p>
+          <p><strong>Phone</strong><br>+254 7682832741</p>
+          <p><strong>Location</strong><br>Voi, Kenya</p>
+        </div>
+
+      </div>
+    </section>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxWV3ZqI9EUMwOMniXNVhxqkt5f6f7iMyJpR1HHccxgtv8U9DBG6R8EG4Z2clrqI0v7/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message submitted successfully"
+            setTimeout(() => { msg.innerHTML = "" }, 2000)
             form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>    
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+  </script>
+  </main>
 </body>
 </html>
