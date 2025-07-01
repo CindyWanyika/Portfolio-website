@@ -215,7 +215,7 @@
       <div class="contact-container">
 
         <!-- Contact form -->
-        <form name="submit-to-google-sheet">
+        <form action="https://formspree.io/f/manjvvwa" method="POST">
           <h3>Send Me a Message</h3>
           <input type="text" name="Name" placeholder="Your Name" required>
           <input type="email" name="Email" placeholder="your.email@example.com" required>
@@ -225,7 +225,7 @@
           <span id="msg"></span>
         </form>
 
-        <!-- Contact info -->
+      
         <div class="contact-info">
           <h3>Contact Information</h3>
           <p><strong>Email</strong><br>kilonzocindy4@gmail.com</p>
@@ -235,30 +235,15 @@
 
       </div>
     </section>
+   
     <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbyn8Q-N8oOchxsMJuXB-pD8O_Dg6gs9WOF0YGmzq3lWMOZ5Ogzfqn_3EsPSmo52LTWUtw/exec'
-      const form = document.forms['submit-to-google-sheet']
-      const msg = document.getElementById("msg")
+      const menuToggle = document.getElementById('menu-toggle');
+      const navLinks = document.querySelector('nav ul');
 
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => {
-            msg.innerHTML = "Message submitted successfully"
-            setTimeout(() => { msg.innerHTML = "" }, 2000)
-            form.reset()
-          })
-          .catch(error => console.error('Error!', error.message))
-      })
-  </script>
-  <script>
-  const menuToggle = document.getElementById('menu-toggle');
-  const navLinks = document.querySelector('nav ul');
-
-  menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
-  });
-</script>
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+      });
+    </script>
 
   </main>
 </body>
