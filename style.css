@@ -49,6 +49,12 @@ nav a:hover {
   color: #ec4899;
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -416,21 +422,31 @@ form button:hover {
   flex: 1;
   min-width: 220px;
   max-width: 300px;
+  text-align: center;
 }
 
 
 
 @media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
+  .menu-toggle {
+    display: block;
   }
 
   nav ul {
+    display: none;
     flex-direction: column;
-    gap: 15px;
-    margin-top: 10px;
+    gap: 10px;
+    background: #fff;
+    position: absolute;
+    top: 70px; 
+    right: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+
+  nav ul.show {
+    display: flex;
   }
 
   .hero {
